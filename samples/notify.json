@@ -1,0 +1,184 @@
+{
+  "place": {
+    "id": "7d52e5e4-f906-41b6-8246-478edf16585e",
+    "status": "online",
+    "date_created": "2023-12-15T01:22:30.161Z",
+    "date_updated": "2023-12-15T01:44:44.648Z",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        -58.381599,
+        -34.603699
+      ]
+    },
+    "name": "",
+    "address": "Esmeralda 1063, Buenos Aires",
+    "street": "Esmeralda",
+    "street_number": 1063,
+    "postal_code": "C1007",
+    "place_type": null,
+    "neighborhood": null,
+    "photo": null,
+    "raw_region": "Comuna 1",
+    "raw_subregion": "Buenos Aires",
+    "raw_neighborhood": null,
+    "raw_city": null,
+    "raw_country": "Argentina",
+    "raw_district": "Buenos Aires",
+    "alerted": true,
+    "country_code": "AR",
+    "contacto": null,
+    "phone": null,
+    "token": null,
+    "alert_type": "asalto_en_comercio",
+    "subregion": null,
+    "alert_notified": false,
+    "iot_devices": [],
+    "gplaces": [],
+    "contacts": [
+      {
+        "id": "168c5959-ef52-417c-8740-17db8f59d6ab",
+        "status": "draft",
+        "date_created": "2023-12-14T19:04:50.348Z",
+        "date_updated": "2023-12-15T01:44:30.880Z",
+        "name": "Gabriel Simionato",
+        "tags": [
+          "owner"
+        ],
+        "phone": "1136206603",
+        "geopoint": null,
+        "address": null,
+        "photo": null,
+        "place": "7d52e5e4-f906-41b6-8246-478edf16585e",
+        "guardia_vecinal": false,
+        "family": false,
+        "collaborator": false,
+        "owner": false,
+        "contact_type": "owner",
+        "phones": [],
+        "devices": []
+      },
+      {
+        "id": "6ef473ab-d4be-4a42-a3e6-5f8e403576f3",
+        "status": "draft",
+        "date_created": "2023-12-14T18:48:09.229Z",
+        "date_updated": "2023-12-15T01:44:30.916Z",
+        "name": "Alerta PBA",
+        "tags": [
+          "owner"
+        ],
+        "phone": "1128835917",
+        "geopoint": null,
+        "address": null,
+        "photo": null,
+        "place": "7d52e5e4-f906-41b6-8246-478edf16585e",
+        "guardia_vecinal": false,
+        "family": false,
+        "collaborator": false,
+        "owner": true,
+        "contact_type": "owner",
+        "phones": [],
+        "devices": []
+      }
+    ],
+    "phones": [
+      {
+        "id": "6ca39063-101a-436b-8bcb-c8e33093e93e",
+        "status": "draft",
+        "date_created": "2023-12-15T01:22:30.348Z",
+        "date_updated": null,
+        "phone_number": null,
+        "geopoint": {
+          "type": "Point",
+          "coordinates": [
+            -58.381599,
+            -34.603699
+          ]
+        },
+        "name": null,
+        "contact": null,
+        "place": "7d52e5e4-f906-41b6-8246-478edf16585e",
+        "push_token": null,
+        "alerted": false,
+        "alert_type": null,
+        "alert_point": null,
+        "devices": []
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "id": "168c5959-ef52-417c-8740-17db8f59d6ab",
+      "status": "draft",
+      "date_created": "2023-12-14T19:04:50.348Z",
+      "date_updated": "2023-12-15T01:44:30.880Z",
+      "name": "Gabriel Simionato",
+      "tags": [
+        "owner"
+      ],
+      "phone": "1136206603",
+      "geopoint": null,
+      "address": null,
+      "photo": null,
+      "place": "7d52e5e4-f906-41b6-8246-478edf16585e",
+      "guardia_vecinal": false,
+      "family": false,
+      "collaborator": false,
+      "owner": false,
+      "contact_type": "owner",
+      "phones": [],
+      "devices": []
+    },
+    {
+      "id": "6ef473ab-d4be-4a42-a3e6-5f8e403576f3",
+      "status": "draft",
+      "date_created": "2023-12-14T18:48:09.229Z",
+      "date_updated": "2023-12-15T01:44:30.916Z",
+      "name": "Alerta PBA",
+      "tags": [
+        "owner"
+      ],
+      "phone": "1128835917",
+      "geopoint": null,
+      "address": null,
+      "photo": null,
+      "place": "7d52e5e4-f906-41b6-8246-478edf16585e",
+      "guardia_vecinal": false,
+      "family": false,
+      "collaborator": false,
+      "owner": true,
+      "contact_type": "owner",
+      "phones": [],
+      "devices": []
+    }
+  ],
+  "phones": [
+    {
+      "id": "6ca39063-101a-436b-8bcb-c8e33093e93e",
+      "status": "draft",
+      "date_created": "2023-12-15T01:22:30.348Z",
+      "date_updated": null,
+      "phone_number": null,
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [
+          -58.381599,
+          -34.603699
+        ]
+      },
+      "name": null,
+      "contact": null,
+      "place": "7d52e5e4-f906-41b6-8246-478edf16585e",
+      "push_token": null,
+      "alerted": false,
+      "alert_type": null,
+      "alert_point": null,
+      "devices": []
+    }
+  ],
+  "changes": {
+    "alerted": true,
+    "alert_type": "asalto_en_comercio"
+  },
+  "type": "update"
+}
