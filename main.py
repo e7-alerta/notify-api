@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-from fastapi import FastAPI
-
-app = FastAPI()
-
-
-=======
 from typing import List
 
 from fastapi import FastAPI
@@ -94,7 +87,6 @@ async def notify_place_alert(bodyForm: dict):
     }
 
 
->>>>>>> 153f3cf (hello notify api)
 @app.get("/")
 async def root():
     return {"message": "Hello Notify"}
@@ -107,8 +99,4 @@ async def say_hello(name: str):
 
 if __name__ == '__main__':
     import uvicorn
-<<<<<<< HEAD
-=======
-
->>>>>>> 153f3cf (hello notify api)
     uvicorn.run(app, host="0.0.0.0", port=8030)
