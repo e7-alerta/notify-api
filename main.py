@@ -1,3 +1,8 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
 from typing import List
 
 from fastapi import FastAPI
