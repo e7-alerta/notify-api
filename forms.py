@@ -18,6 +18,8 @@ class PhoneInfo(BaseModel):
 
 class ContactInfo(BaseModel):
     id: Optional[str] = None
+    chatwoot_id: Optional[str] = None
+    last_conversation_id: Optional[str] = None
     status: Optional[str] = None
     name: Optional[str] = None
     contact_type: Optional[str] = None
@@ -35,7 +37,7 @@ class ContactInfo(BaseModel):
 class PlaceInfo(BaseModel):
     id: Optional[str] = None
     status: Optional[str] = None
-    place_type: Optional[str] = None
+    place_type: Optional[List[str]] = None
     place_name: Optional[str] = None
     phone: Optional[str] = None
     contacto: Optional[str] = None

@@ -46,6 +46,8 @@ async def notify_place_alert(bodyForm: dict):
             forms.ContactInfo(
                 id=contact["id"],
                 status=contact["status"],
+                chatwoot_id=contact["chatwoot_id"],
+                last_conversation_id=contact["last_conversation_id"],
                 name=contact["name"],
                 contact_type=contact["contact_type"],
                 tags=contact["tags"],

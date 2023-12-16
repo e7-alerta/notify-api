@@ -21,11 +21,8 @@ def notify_place_alert(form: NotifyPlaceAlertForm):
             phones=form.phones
         )
     )
-
     pass
 
-
-"""
     # notify a contacts with a chat message
     talk_service.notify_place_alert(
         TalkPlaceAlertForm(
@@ -36,6 +33,8 @@ def notify_place_alert(form: NotifyPlaceAlertForm):
         )
     )
 
+
+    """
     # notify a contacts with a voice message
     speak_service.notify_place_alert(
         SpeakPlaceAlertForm(
